@@ -17,12 +17,7 @@ data:
   batch_size: 8
   train_latents: 'datasets/Celeba_HQ/train_latents.npy'
   test_latents: 'datasets/Celeba_HQ/test_latents.npy' 
-#   emo_prob: 0.25
-#   age_gender_prob: 0.15
-#   hair_color_prob: 0.05
-#   eyes_prob: 0.05
-#   face_prob: 0.2
-#   hair_style_prob: 0.3
+
 
 data_type: 'ffhq' 
 

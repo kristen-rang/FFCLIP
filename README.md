@@ -36,6 +36,14 @@ In addition, we provide various pretrained models needed for training.
 |[MOCOv2 Model](https://drive.google.com/file/d/18rLcNGdteX5LwT7sv_F7HWr12HpVEzVe/view?usp=sharing) | Pretrained ResNet-50 model trained using MOCOv2 for use in our simmilarity loss for domains other then human faces during training.
 |[Parsenet Model](https://github.com/stoneyang-detection/caffe_ssd) | Pretrained Parsenet model to segment background during training.
 
+### Pretrained Models for Inference:
+We release our checkpoints on human face, car, church dataset. During Training, we found the batch size and GPU mermory is essential to a good performance. We encourge readers to train and finetune the model by youself if you have better experiment enviorments.
+#### FFHQ Dataset:
+Download link: https://drive.google.com/file/d/1oYMi5jsrUI_WyQ-xGf-F2T6myVGBx3od/view?usp=drive_link
+#### LUSN Car Dataset:
+Download link: https://drive.google.com/file/d/11Zsx_bjMbIzzTjLxWDhOEgoXmnbNwH7t/view?usp=drive_link
+#### LUSN Church Dataset:
+Download link: https://drive.google.com/file/d/1ihmvppjLXh71ARx4NLnIMzJRAFLdQnmn/view?usp=drive_link
 ### Citation
 If you use this code for your research, please cite our paper: One Model to Edit them all:  Free-Form Text-Driven Image Manipulation with Semantic Modulations
 https://arxiv.org/abs/2210.07883
